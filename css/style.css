@@ -1,0 +1,221 @@
+@import url('fonts.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family:'Quantico-Regular', sans-serif;
+}
+.container{
+    max-width: 1015px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-major{
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.container-champions{
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    padding:30px;
+    margin: 0 auto;
+    background:  #1B1E27;
+    padding-bottom: 188px;
+}
+
+.header{
+    background: #272C3D;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu__nav{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    align-items: center;
+}
+.menu__linc a{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.menu__linc a:hover{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#FF9C28;
+}
+.header__search{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+input{
+    border: none;
+    width: 190px;
+    height: 30px;
+    background: #404864;
+    border-radius: 5px;
+    border: none;
+}
+.header__search-line{
+    cursor: pointer;
+    display: flex;
+    transform: translateX(-30px);
+    border: none;
+}
+.header__search-languages{
+    width: 130px;
+    height: 30px;
+    background: #00000080;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-family:'Quantico-Regular', sans-serif;
+
+}
+.banner{
+    background: url(../images/bg.png) no-repeat  center / cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.banner__wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-70px);
+    position: relative;
+    left: -30px;
+}
+.banner h1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+  
+}
+.banner p{
+    color: #FFFFFF;
+  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.major{
+    background: #000000;
+    
+}
+.major__title{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-20px);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-bottom: 17px;
+}
+.major__catalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.major__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+}
+
+.major__btn-knob{
+    height: 10px;
+    width: 10px;
+    background: #A7A7A7;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.major__btn-knob:hover{
+    background: #FFFFFF;
+}
+.champions{
+    background:#000000  ;
+    padding:13px;
+}
+.champions__title-h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.champions__title-p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.champions__desc{
+    display: flex;
+    margin-top: 10px;
+    gap: 17px;
+}
+.champions__desc-p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #BFBFBF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.champions__text-foto{
+    display: flex;
+    flex-direction: column;
+
+}
+.champions__desc2-p{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #BFBFBF;
+}
+.champions__desc2-img{
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+
